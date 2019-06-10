@@ -17,7 +17,7 @@
 // @author Changxue Deng <chadeng@cisco.com>
 
 #include <gtest/gtest.h>
-#include <gtest/tap.h>
+#include <tap.h>
 
 #include "../db.h"
 #define MB_DIR "/var/tmp/mabain_test/"
