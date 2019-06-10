@@ -1,5 +1,4 @@
 COPTS = ["-Wall -Werror -g -O2 -std=c++11",
-        "-Isrc -Isrc/util",
         "-fprofile-arcs -ftest-coverage -fPIC -D__SHM_QUEUE__"]
 
 
