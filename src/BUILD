@@ -15,5 +15,5 @@ cc_library(
     srcs = glob(["*.cpp", "util/*.cpp"]),
     includes = [".", "./util"],
     hdrs = glob(["*.h", "util/*.h"]),
-    visibility = ["//binaries:__pkg__", "//src/unittest:__pkg__"],
+    visibility = ["//visibility:public"],
 )
